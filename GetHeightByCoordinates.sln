@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetHeighByCoordinates", "GetHeighByCoordinates.csproj", "{1D1104BF-657B-4CC3-A776-6E5BA3147AD5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetHeightByCoordinates", "GetHeightByCoordinates\GetHeightByCoordinates.csproj", "{14B67A5D-BF0A-4B0D-9F77-A97DBCF14469}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "..\Tests\Tests.csproj", "{95C7BF92-715A-4161-9D5F-89C8E1AF3D6F}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{136FDB30-68C0-4EA7-8069-69574D434887}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{72DA7DA5-4FD0-432F-985F-80335D35482B}"
 	ProjectSection(SolutionItems) = preProject
 		GetHeightByCoordinates.lsp = GetHeightByCoordinates.lsp
 		GetHeightByCoordinates.scr = GetHeightByCoordinates.scr
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{9EC99DD7-E1F4-4BB2-BEDB-4AFF282931C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1D1104BF-657B-4CC3-A776-6E5BA3147AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1D1104BF-657B-4CC3-A776-6E5BA3147AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1D1104BF-657B-4CC3-A776-6E5BA3147AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1D1104BF-657B-4CC3-A776-6E5BA3147AD5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{95C7BF92-715A-4161-9D5F-89C8E1AF3D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{95C7BF92-715A-4161-9D5F-89C8E1AF3D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{95C7BF92-715A-4161-9D5F-89C8E1AF3D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{95C7BF92-715A-4161-9D5F-89C8E1AF3D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B67A5D-BF0A-4B0D-9F77-A97DBCF14469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B67A5D-BF0A-4B0D-9F77-A97DBCF14469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B67A5D-BF0A-4B0D-9F77-A97DBCF14469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B67A5D-BF0A-4B0D-9F77-A97DBCF14469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC99DD7-E1F4-4BB2-BEDB-4AFF282931C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC99DD7-E1F4-4BB2-BEDB-4AFF282931C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC99DD7-E1F4-4BB2-BEDB-4AFF282931C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC99DD7-E1F4-4BB2-BEDB-4AFF282931C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

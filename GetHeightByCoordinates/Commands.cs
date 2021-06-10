@@ -11,7 +11,7 @@ namespace GetHeightByCoordinates
         [CommandMethod("CK_GetHbyXY")]
         public static void GetHeightByCoordinateXY()
         {
-            var (X, Y) = ConvertPoint3dToCoordinate(GetPoint());
+            (double X, double Y) = ConvertPoint3dToCoordinate(GetPoint());
             var height = GetHeight(X, Y);
             Application.DocumentManager.MdiActiveDocument.Editor.WriteMessage($"\n{height}");
         }
