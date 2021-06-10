@@ -10,7 +10,7 @@ Komenda ZwCAD odczytująca pionową rzędną terenu na podstawie współrzędnyc
 ### FUNKCJONALNOŚĆ
 - - -
 W środowisku CAD dostarcza komendę C:CK_GetHbyXY zwracającą rzędną wysokościową terenu o wskazanych współrzędnych w układzie PUWG92
-Współrzędne dostarcza serwis https://services.gugik.gov.pl/nmt/
+Rzędne wysokosciowe dostarcza serwis https://services.gugik.gov.pl/nmt/
 
 ### UŻYCIE
 ---
