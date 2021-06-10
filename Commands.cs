@@ -4,12 +4,12 @@ using ZwSoft.ZwCAD.EditorInput;
 using ZwSoft.ZwCAD.Geometry;
 using ZwSoft.ZwCAD.Runtime;
 
-namespace GetHeighByCoordinates
+namespace GetHeightByCoordinates
 {
     public static class Commands
     {
         [CommandMethod("CK_GetHbyXY")]
-        public static void GetHaightByCoordinateXY()
+        public static void GetHeightByCoordinateXY()
         {
             var (X, Y) = ConvertPoint3dToCoordinate(GetPoint());
             var height = GetHeight(X, Y);
