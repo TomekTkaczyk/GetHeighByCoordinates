@@ -15,9 +15,11 @@ Rzędne wysokosciowe dostarcza serwis https://services.gugik.gov.pl/nmt/
 ### UŻYCIE
 ---
 Ładowanie biblioteki .dll w środowisku CAD: 
+
 (vl-cmdf "netload" ".\\GetHeightByCoordinates\\bin\\debug\\GetHeightByCoordinates.dll")
 
-Użycie komendy: 
+Użycie komendy:
+
 (command "CK_GetHbyXY")
 
 ### STATUS
